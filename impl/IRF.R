@@ -2,12 +2,11 @@
 # Note: Without data access you cannot source the main function!
 
 
-# Set Working Directory to Repo and Load Main 
-wd = paste0(Sys.getenv("USERPROFILE"),"/OI_Crypto/data")
-path = file.path(wd, paste0("impl/Main.R"))
+# Set WD 
+wd = paste0(Sys.getenv("USERPROFILE"),"/OI_Crypto/impl")
+path = file.path(wd, paste0("Main.R"))
 
 source(path)
-
 
 library("plotly", quietly = TRUE)
 library(plyr, quietly = TRUE)

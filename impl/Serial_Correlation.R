@@ -1,3 +1,5 @@
+# Testing the estimated Models for serial residual Correlation
+
 # Note: Without data access you cannot source the main function!
 
 

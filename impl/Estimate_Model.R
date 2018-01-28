@@ -1,3 +1,5 @@
+# Create bivariate Vector Autoregression summaries using stargazer. Labels are presented at the bottom.
+
 # Note: Without data access you cannot source the main function!
 
 

@@ -1,3 +1,5 @@
+# Model Order Selection using the Akaike Information Criterion
+
 # Note: Without data access you cannot source the main function!
 
 # Set WD 

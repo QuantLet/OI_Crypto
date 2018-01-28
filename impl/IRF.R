@@ -1,3 +1,4 @@
+# Impulse Response Functions between Order Imbalances and Returns
 
 # Note: Without data access you cannot source the main function!
 
@@ -19,13 +20,6 @@ setwd(wd2)
 # IRF
 
 gen.irf.plot = function(varmodel, responsechar1, responsechar2, exportbool, cryptoname){ # only for k = 2
-  
-  # to delete
-  # responsechar1 = "ret"  
-  # responsechar2 = "voi"
-  # varmodel = var.section$voi.btc  
-  # cryptoname = "Bitcoin"
-  #
   
   v = varmodel
   titlename = "" #paste0(cryptoname, " Impulse Response")

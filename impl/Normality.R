@@ -1,3 +1,5 @@
+# Jarque Bera Test for Nonnormal Residuals
+
 # Note: Without data access you cannot source the main function!
 
 

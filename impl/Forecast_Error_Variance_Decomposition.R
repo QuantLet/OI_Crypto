@@ -1,3 +1,5 @@
+# Forecast Error Variance Decomposition including Tables
+
 # Note: Without data access you cannot source the main function!
 
 
@@ -13,15 +15,6 @@ fevdlist = lapply(var.section, function(z){
   return(fevd(z))
   
 })
-
-# win.graph(width = 15, height = 10)
-# for(i in 1:length(fevdlist)){
-# 
-# titlename = paste0(names(fevdlist[i]))
-# plot(fevdlist[[i]], main = titlename)
-# }
-
-
 
 
 # Bitcoin
